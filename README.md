@@ -1,1 +1,1 @@
-# vorc-cantho-firmware-example
+# MakerBot Firmware examples for VORC Can Tho 2024
