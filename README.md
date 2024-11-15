@@ -5,6 +5,7 @@ Repository này chứa các firmware ví dụ cho mạch VIA Bánh Mì dành cho
 ## Updated firmware:
 
 - [Maker_bot_motor_test.ino](/firmwares/Maker_bot_motor_test/Maker_bot_motor_test.ino): Test động cơ và servo của mạch VIA Bánh Mì thông qua Wifi và ESPUI.
+- [MakerBotwPS2.ino](/firmwares/MakerBotwPS2/MakerBotwPS2.ino): Điều khiển động cơ và servo của mạch VIA Bánh Mì thông qua PS2 controller.
 
 ### Update log:
 
@@ -32,3 +33,7 @@ Note:
 - `isInverted`: 	If true, inverts the output, defaults to 'false'
 
 Chi tiết hơn về hàm `.setPin()` và `.setPWM` xem tại [đây](https://adafruit.github.io/Adafruit-PWM-Servo-Driver-Library/html/class_adafruit___p_w_m_servo_driver.html#a1246cd50849fe0f068cc5d474e06ae96).
+
+Cập nhật (16/11/2024) - /MakerBotwPS2/motors.h:
+
+1. Thay đổi cách điều khiển động cơ từ hàm `setPWM()` sang `setPin()`. (tương tự như cập nhật ở trên)
